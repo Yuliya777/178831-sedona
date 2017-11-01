@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Yuliya Liubimava](https://up.htmlacademy.ru/htmlcss/19/user/178831).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Шашева](https://htmlacademy.ru/profile/loyso).
 
 ---
 
