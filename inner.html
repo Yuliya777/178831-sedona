@@ -7,8 +7,10 @@
   <body>
   	<header class="main-header">
   		<nav class="main-navigation">
-  			<a class="main-header-logo">
+  			<a href="#">
+          <div class="main-header-logo">
   				<img src="img/index-logo.svg" width="100" height="100" alt="Логотип сайта «Sedona»">
+        </div>
   			</a>
   			<ul class="site-navigation">
   				 <li><a href="info.html">Информация</a></li>
@@ -27,12 +29,15 @@
 
        <section class="searching-results">
           <p>Найдено: 3</p>
-          <ul class="searching-results-sorting">Сортировка
+          <span>Сортировка</span>
+          <ul class="searching-results-sorting">
               <li class="sorting-category"><a href="#">По цене</a>
               </li>
               <li class="sorting-category"><a href="#">По типу</a></li>
-              <li class="sorting-category">По рейтингу</a></li>  
-          </ul>   
+              <li class="sorting-category"><a href="#">По рейтингу</a></li>  
+          </ul> 
+          <div class="up-arrow"></div>
+          <div class="down-arrow"></div>   
        </section>
 
        <section class="hotel-offers">
@@ -89,7 +94,12 @@
                 <a href="hotel-list-item.html">
                 <img src="img/product-3.jpg" width="220" height="165" alt="Аппартаменты «Villas At Poco Diablo»>
                 </a>
-                <a href="#">Рейтинг: 9,2</a>
+                <p>
+                <div class="stars">
+                  <span class="star-item"></span>
+                  <span class="star-item"></span>
+                 </div> 
+                Рейтинг: 9,2</p>
                 </p>
                 <p class="hotel-item-action">
                 <a class="button" href="#">Подробнее</a>
