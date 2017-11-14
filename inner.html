@@ -5,25 +5,72 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-  	<header class="main-header">
-  		<nav class="main-navigation">
-  			<a href="#" class="main-header-logo">
-  				<img src="img/logo.png" width="138" height="70" alt="Логотип сайта «Sedona»">
-  			</a>
-  			<ul class="site-navigation">
-  			  <li><a href="info.html">Информация</a></li>
-  				<li><a href="foto_video.html">Фото и видео</a></li>
-  				<li><a href="map.html">Карта штата</a></li>
-  				<li><a href="hotels.html">Гостиницы</a></li>
-  			</ul>
-  		</nav>
-  	</header>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a href="#" class="main-header-logo">
+          <img src="img/logo.png" width="138" height="70" alt="Логотип сайта «Sedona»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="foto_video.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="container">
       <section class="filters">
         <h2 class="visually-hidden">Фильтр объектов размещения</h2>
-        <!-- Здесь будет форма -->
-      </section>
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="pool" id="filter-pool" checked>
+                <label for="filter-pool">
+                  Бассейн
+                </label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking" id="filter-parking">
+                <label for="filter-parking">
+                  Паковка
+                </label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="conect-type" id="filter-conect-type">
+                <label for="filter-conect-type">
+                  Wi-fi
+                </label>
+              </li>
+            </ul> 
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+              <ul>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hotel-type" id="filter-hotel-type" checked>
+                  <label for="filter-hotel-type">
+                    Гостиница
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="motel-type" id="filter-motel-type" checked>
+                  <label for="filter-motel-type">
+                    Мотель
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="appartment-type" id="filter-appartment-type" checked>
+                  <label for="filter-appartment-type">
+                    Wi-fi
+                </li>
+              </ul>
+            </fieldset>
+              <button type="submit" class="filter-button button">Показать</button>
+            </form>
+          </section>
 
       <section class="searching-results">
         <p>Найдено: 3</p>
@@ -56,6 +103,7 @@
               <span>Рейтинг: 8,5</span>
             </div>
           </li>
+
           <li class="hotel-list-item">
             <img src="img/desert_quail_inn.jpg" width="135" height="90" alt="Мотель «Desert Quail Inn»">
             <div class="hotel-info">
