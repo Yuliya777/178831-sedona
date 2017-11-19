@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #a3a3a3;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-image: url("../img/main_background_photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;	
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation .site-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+
+  background-color: #ffffff;  
+}
