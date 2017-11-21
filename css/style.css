@@ -1,3 +1,4 @@
+/* Глобальные параметры текста для главной страницы */
 body {
   margin: 0;
   padding: 0;
@@ -10,23 +11,25 @@ body {
   text-transform: uppercase;
 
   background-color: #ffffff;
-  background-image: url("../img/main_background_photo.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;	
+  width: 1280px;
 }
 
+/* Глобальные параметры текста для внутренних страниц */
 .inner-page {
   color: #333333;
   background-image: none;
   background-color: #ffffff;
   background-position: 0 0;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
+/* Ссылки */
 a {
   text-decoration: none;
  }
- .button {
+
+/* Кнопки */
+.button {
   font: inherit;
 
   text-align: center;
@@ -34,40 +37,44 @@ a {
   vertical-align: middle;
   text-transform: uppercase;
 
-  background-color: #766357;
+  background-color: #766357; 
   border: none;
   border-radius: 0;
 }
 
-.button:hover,
-.button:focus,
-.button:active {
-  background-color: #663d15;
+.button:hover {
+  background-color: #604e43;
 }
 
-.button-info {
-  color: ffffff;
-  background-color: 81b3d2;
+.button:active {
+  background-color: #503e33;
 }
+
+/* Шапка и главное навигационное меню */
 
 .main-navigation {
   background-color: #ffffff; 
 }
 
 .site-navigation a {  
-  font-size: 14px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
 }
 
-.site-navigation a:focus {
-  color: #766357;
+.site-navigation a:hover {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: #dddddd; /* Не уверена, что правиьно определила цвет при нажатии */ 
 }
 
 .site-navigation {
   list-style: none;
 }
+
+/* Визитная карточка Седоны */
 
 .visually-hidden {
   display: none;
@@ -76,11 +83,16 @@ a {
 .sedona-business-card {
   margin: 0;
   padding: 0;
+  
+  background-image: url("../img/main_background_photo.jpg");
+  background-repeat: no-repeat; 
+  background-size: width="1200px" height="773px";
 }
 
 .features {
   color: #939393;
   text-align: center;
+
   background-color: #ffffff; 
 }
 
@@ -88,9 +100,12 @@ a {
   color: #000000;
 }
 
+/* Настоящий городок */
+
 .feature-town {
   color: #ffffff;
   text-align: center;
+
   background-color: #81b3d2;
 }
 
@@ -103,19 +118,11 @@ a {
   background-color: #81b3d2;
 }
 
-.feature-attraction {
-  color: #ffffff;
-  text-align: center;
-  background-color: #81b3d2; 
-}
+/* Создала новый див "index-columns" для группы: жилье, еда, сувениры */ 
 
-.feature-attraction h3 {
-  font-size: 21px;
-  line-height: 21px;
-  font-weight: 700;
-  color: #ffffff;
-
-  background-color: #81b3d2;
+.index-columns {
+  background-position: 0 0;
+  background-repeat: none;
 }
 
 .tourists-advice-list,
@@ -135,16 +142,28 @@ a {
   color: #000000;
 }
 
-.index-columns {
+/* Мост */
 
-  background-color: #ffffff;
-  background-position: 0 0;
-  background-repeat: none;
+.feature-attraction {
+  color: #ffffff;
+  text-align: center;
+  background-color: #81b3d2; 
 }
+
+.feature-attraction h3 {
+  font-size: 21px;
+  font-weight: 700;
+
+  background-color: #81b3d2;
+}
+
+/* Небольшая площадь, красивая дорога, много туристов */
 
 .feature-environoment {
   background-color: #eeeeee;
 }
+
+/* "Заинтересовались?" - место вызова формы бронирования гостиницы */
 
 .hotel-booking {
   line-height: 24px;
@@ -155,8 +174,10 @@ a {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
-  color: 000000;
+  color: #000000;
 }
+
+/* Форма бронирования отеля */
 
 .hotel-booking-item {
   font: inherit;
@@ -176,19 +197,21 @@ a {
   border: none;
 }
 
-.main-footer {
-  color: #000000;
+.filter fieldset {
+  border: none;
+}
 
+/* Подвал */
+
+.main-footer {
   background-color: #fdfdfd;
-  background-position: 0 0;
-  background-repeat: repeat;
 }
 
 .main-footer a {
+  font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  color: #81b3d2;
-  text-align: center;
+  color: #000000;
 }
 
 .footer-social {
