@@ -65,7 +65,7 @@ a {
 }
 
 .site-navigation a:active {
-  color: rgb(0,0,0, 0.3); /* Не уверена, что правильно определила цвет при нажатии */ 
+  color: rgba(0,0,0, 0.3); 
 }
 
 .site-navigation {
@@ -160,8 +160,8 @@ a {
   background-color: #ffffff;
 }
 
-.hotel-booking-item input[type="text"], 
-.hotel-booking-item input[type="number"] {
+.hotel-booking-item, 
+.hotel-booking-item {
   font: inherit;
   line-height: 26px;
   font-weight: 700;
@@ -199,10 +199,10 @@ a {
 .filters {
   color: #ffffff;
 
-  background-color: ##81b3d2;
+  background-color: #81b3d2;
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat; 
-  background-size: width="1200px" height="562px";
+  background-size: 1200px 562px;
 }
 
 .filters ul {
@@ -224,8 +224,6 @@ form .filter-option-input:hover + label {
   line-height: 26px;
   font-weight: 700;
   color: #000000;
-
-  background-color: #ffffff;
 }
 
 .searching-results span {
@@ -246,7 +244,7 @@ form .filter-option-input:hover + label {
 }
 
 .searching-results-sorting a {
-  color: #cacaca;
+  color: rgba(0,0,0, 0.3);
 }
 
 .searching-results-sorting a:hover {
@@ -266,7 +264,7 @@ form .filter-option-input:hover + label {
 
 .main-footer {
   color: #000000;
-  background-color: #fdfdfd;
+  background-color: #fefefe;
 }
 
 .main-footer a {
@@ -299,5 +297,3 @@ form .filter-option-input:hover + label {
 
 
 
-
-}
