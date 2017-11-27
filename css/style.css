@@ -94,7 +94,6 @@ a {
 
 .feature-town {
   color: #ffffff;
-  text-align: center;
 
   background-color: #81b3d2;
 }
@@ -103,9 +102,6 @@ a {
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
-  color: #ffffff;
-
-  background-color: #81b3d2;
 }
 
 /* Создала новый див "index-columns" для группы: жилье, еда, сувениры */ 
