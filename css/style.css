@@ -14,15 +14,6 @@ body {
   width: 1280px;
 }
 
-/* Глобальные параметры текста для внутренних страниц */
-.inner-page {
-  color: #333333;
-  background-image: none;
-  background-color: #ffffff;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
-
 /* Ссылки */
 a {
   text-decoration: none;
