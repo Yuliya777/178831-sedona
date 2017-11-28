@@ -1,6 +1,5 @@
 /* Глобальные параметры текста для главной страницы */
 body {
-  margin: 0;
   padding: 0;
 
   font-family: "PT Sans", Arial, sans-serif;
@@ -10,8 +9,13 @@ body {
   color: #333333;
   text-transform: uppercase;
 
-  background-color: #e2f0f9;
-  width: 1280px;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .visually-hidden {
