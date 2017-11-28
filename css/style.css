@@ -104,9 +104,30 @@ a {
   font-weight: 700;
 }
 
+/* Жилье, еда, сувениры */
+
 .tourists-advice-list,
 .feature-environoment-list {
   list-style: none;
+}
+
+.tourists-advice-item {
+  display: inline-block;
+}
+
+.accommodation {
+  background-image: url("../img/icon-1.svg");
+  background-repeat: no-repeat;
+}
+
+.food {
+  background-image: url("../img/icon-3.svg");
+  background-repeat: no-repeat;
+}
+
+.souvenirs {
+  background-image: url("../img/icon-2.svg");
+  background-repeat: no-repeat;
 }
 
 .tourists-advice-item h3,
@@ -220,12 +241,15 @@ form .filter-option-input:hover + label {
 }
 
 .searching-results {
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: 700;
   color: #000000;
 }
 
+.searching-results h2 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+ }
+  
 .searching-results span {
   font-size: 12px;
   line-height: 18px;
