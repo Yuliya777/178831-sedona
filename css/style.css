@@ -178,6 +178,23 @@ a {
   color: #000000;
 }
 
+.hotel-searching {
+   font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #766357; 
+  border: none;
+  border-radius: 0;
+  height: 83px;
+  width: 576px;
+}
+
 /* Форма бронирования отеля */
 
 .modal {
@@ -211,6 +228,8 @@ a {
 
   background-color: #81b3d2;
   border: none;
+  height: 59px;
+  width: 458px;
 }
 /* Для внутренней страницы - фильтры */
 
@@ -236,6 +255,23 @@ a {
 
 .filters ul {
   list-style: none;
+}
+
+.filter-button {
+  font: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: transparent; 
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  background-size: 131px 34px;
+
 }
 
 .searching-results {
