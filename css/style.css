@@ -238,16 +238,6 @@ a {
   list-style: none;
 }
 
-form .filter-option-input:hover + label {
-  color: #ffffff;
-}
-
-.filter-input:disabled + label {
-  color: #000000;
-
-  opacity: 0.5;
-}
-
 .searching-results {
   color: #000000;
 }
