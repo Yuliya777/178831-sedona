@@ -179,7 +179,7 @@ a {
 }
 
 .hotel-searching {
-   font: inherit;
+  font: inherit;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -191,8 +191,7 @@ a {
   background-color: #766357; 
   border: none;
   border-radius: 0;
-  height: 83px;
-  width: 576px;
+  background-size: 576px 83px;
 }
 
 /* Форма бронирования отеля */
@@ -228,8 +227,7 @@ a {
 
   background-color: #81b3d2;
   border: none;
-  height: 59px;
-  width: 458px;
+  background-size: 458px 59px;
 }
 /* Для внутренней страницы - фильтры */
 
@@ -315,6 +313,39 @@ a {
   list-style: none;
 }
 
+.more-deteils {
+  font: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #81b3d2; 
+  border: none;
+  background-size: 109px 25px;
+}
+
+.more-deteils a:hover {
+  background-color: #81b3d2; 
+}
+.hotel-booking-button {
+  font: inherit;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #766357; 
+  border: none;
+  border-radius: 0;
+  background-size: 144px 27px;
+}
 /* Подвал */
 
 .main-footer {
