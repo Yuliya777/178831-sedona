@@ -348,14 +348,15 @@ a {
 }
 /* Подвал */
 
-.main-footer {
-  color: #000000;
+.main-footer a {
   background-color: #fefefe;
+  line-height: 26px;
+  text-transform: uppercase;
 }
 
-.main-footer a {
+.visit-sedona-link a {
+  font: inherit;
   font-size: 21px;
-  line-height: 26px;
   font-weight: 700;
   color: #000000;
 }  
@@ -366,12 +367,9 @@ a {
 
 .footer-copyright a {
   font: inherit;
-  line-height: 26px;
+  font-size: 14px;
+  font-weight: 400;
   color: #000000;
-  text-transform: uppercase;
-
-  background-color: #fdfdfd;
-  border: none;
 }
 
 
