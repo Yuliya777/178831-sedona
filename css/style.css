@@ -360,15 +360,12 @@ a {
   color: #000000;
 }  
 
-.footer-social {
-  text-align-last: center;
-}
-
 .footer-social ul {
   list-style: none;
 }
 
-.footer-copyright .button a {
+
+.footer-copyright a {
   font: inherit;
   line-height: 26px;
   color: #000000;
