@@ -194,6 +194,15 @@ a {
   background-size: 576px 83px;
 }
 
+.hotel-searching:hover {
+  background-color: #604e43; 
+}
+
+.hotel-searching:active {
+  color: rgba(0,0,0 0.7);
+  background-color: #503e33; 
+}
+
 /* Форма бронирования отеля */
 
 .modal {
@@ -272,7 +281,7 @@ a {
   background-size: 131px 34px;
 }
 
-.filter-button: hover {
+.filter-button:hover {
   font: inherit;
   color: #000000;
   background-color: #ffffff;
@@ -299,15 +308,19 @@ a {
   list-style: none;
 }
 
-.searching-results-sorting a {
+.sorting-category a {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
-  color: rgba(0,0,0, 0.3);
+  color: rgba(0,0,0 0.7);
 }
 
-.searching-results-sorting a:hover {
-  color: #81b3d2;
+.sorting-category a:hover {
+  color:  #f81b3d2;
+}
+
+.searching-results-sorting a:active {
+  color: #000000;
 }
 
 .button-sub {
@@ -315,8 +328,27 @@ a {
   background-color: #81b3d2;
 }
 
+/* Информация о найденных гостиницах */
+
 .hotel-offers ul {
-  list-style: none;
+  list-style: none; 
+}
+
+.hotel-name a {
+  font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.hotel-name a:hover {
+  color: #81b3d2;
+}
+
+.hotel-name a:active {
+  color: rgba(0,0,0 0.7);
 }
 
 .more-deteils {
@@ -335,8 +367,15 @@ a {
 }
 
 .more-deteils a:hover {
-  background-color: #81b3d2; 
+  color:  #ffffff;
+  background-color: #669ec0;
 }
+
+.more-deteils a:active {
+  color: rgba(255,255,255, 0.7);
+  background-color: #5496bd;
+}
+
 .hotel-booking-button {
   font: inherit;
   font-size: 14px;
@@ -352,6 +391,17 @@ a {
   border-radius: 0;
   background-size: 144px 27px;
 }
+
+.hotel-booking-button a:hover {
+  color:  #ffffff;
+  background-color: #604e43; 
+}
+
+.hotel-booking-button a:active {
+  color: rgba(255,255,255, 0.7);
+  background-color: #5496bd;
+}
+
 /* Подвал */
 
 .main-footer {
