@@ -188,6 +188,12 @@ a {
   color: #000000;
 }
 
+.tourists-advice-item p,
+.feature-environoment-item span,
+.feature-environoment-item p {
+  color: #333333;
+}
+
 /* Мост */
 
 .feature-attraction {
@@ -224,20 +230,39 @@ a {
   padding: 140px 72px 60px;
 
   background-position: center 60px;
+  background-color: #eeeeee;
 }
+
 
 /* "Заинтересовались?" - место вызова формы бронирования гостиницы */
 
 .hotel-booking {
+  position: relative;
   line-height: 24px;
   text-align: center;
 }
-  
+
+.container-hotel-booking {
+  position: absolute;
+  min-height: 290px;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
 .hotel-booking h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
   color: #000000;
+}
+
+.hotel-booking p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
 }
 
 .hotel-searching {
@@ -266,6 +291,11 @@ a {
 }
 
 /* Форма бронирования отеля */
+
+.hotel-booking-form {
+  min-width: 576px;
+  min-height: 395px;
+ }
 
 .modal {
   font-size: 14px;
