@@ -427,6 +427,62 @@ a {
   font-weight: 400;
 }
 
+/* Сеточные стили */
+
+
+html,
+body {
+  min-width: 1280px;
+  min-height: 2762px;
+}
+
+body {
+  /* Временно для сетки */
+  background-image: url("../img/sedona-index-1200.jpg");
+  background-size: 1200px auto;
+  background-repeat: no-repeat;
+}
+
+.main-header {
+  margin-bottom: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+/* Временно для сетки */
+  min-height:  71px;
+}
+
+.main-navigation {
+  width: 1056px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+/* Временно для сетки */ 
+   min-height:  71px; 
+   background-color: transparent;
+   border: 1px solid yellow;
+}
+
+.main-header-logo {
+  width: 139px;
+  height: 71px;
+  /* Временно для сетки */ 
+  display: block; 
+  border: 1px solid yellow;
+}
+
+.site-navigation {
+  width: 
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  /* Временно для сетки */ 
+  max-height: 33px;
+
+}
 
 
 
