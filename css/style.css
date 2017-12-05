@@ -145,10 +145,6 @@ a {
 
 /* Жилье, еда, сувениры */
 
-.feature-environoment-list {
-  list-style: none;
-}
-
 .tourists-advice-item {
   display: inline-block;
 }
@@ -208,6 +204,26 @@ a {
 
 .feature-environoment {
   background-color: #eeeeee;
+}
+
+.feature-environoment-item {
+  display: inline-block;
+}
+
+.feature-environoment-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-environoment-item {
+  box-sizing: border-box;
+  width: 33.33%;
+  padding: 140px 72px 60px;
+
+  background-position: center 60px;
 }
 
 /* "Заинтересовались?" - место вызова формы бронирования гостиницы */
