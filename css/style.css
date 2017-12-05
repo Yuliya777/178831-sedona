@@ -461,7 +461,7 @@ body {
 /* Временно для сетки */ 
    min-height:  71px; 
    background-color: transparent;
-   border: 1px solid yellow;
+   background-color: yellow;
 }
 
 .main-header-logo {
@@ -469,7 +469,7 @@ body {
   height: 71px;
   /* Временно для сетки */ 
   display: block; 
-  border: 1px solid yellow;
+  background-color: green;
 }
 
 .site-navigation {
