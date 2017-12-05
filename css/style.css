@@ -1,5 +1,8 @@
 /* Глобальные параметры текста для главной страницы */
 body {
+  min-width: 1200px;
+
+  margin: 0;
   padding: 0;
 
   font-family: "PT Sans", Arial, sans-serif;
@@ -59,7 +62,35 @@ a {
 /* Шапка и главное навигационное меню */
 
 .main-navigation {
+  position: relative;
+  padding: 0 6%;
   background-color: #ffffff; 
+}
+
+.main-header-logo {
+  position: absolute;
+  width: 138px;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.site-navigation {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.site-navigation li {
+  width: 20%;
+  padding: 15px 0;
+}
+
+.site-navigation li:nth-child(n+3) {
+  text-align: right;
 }
 
 .site-navigation a {  
@@ -74,10 +105,6 @@ a {
 
 .site-navigation a:active {
   color: rgba(0, 0, 0, 0.3); 
-}
-
-.site-navigation {
-  list-style: none;
 }
 
 /* Визитная карточка Седоны */
@@ -427,7 +454,7 @@ a {
   font-weight: 400;
 }
 
-/* Сеточные стили */
+/* Сеточные стили 
 
 
 html,
@@ -438,7 +465,7 @@ body {
 
 body {
   /* Временно для сетки */
-  background-size: 1200px auto;
+ /* background-size: 1200px auto;
   background-repeat: no-repeat;
 }
 
@@ -448,7 +475,7 @@ body {
   margin-right: 40px;
 
 /* Временно для сетки */
-  min-height:  71px;
+/*  min-height:  71px;
 }
 
 .main-navigation {
@@ -457,7 +484,7 @@ body {
   flex-direction: row;
   align-items: center;
 
-/* Временно для сетки */ 
+/* Временно для сетки 
    min-height:  71px; 
    background-color: transparent;
    background-color: yellow;
@@ -466,7 +493,7 @@ body {
 .main-header-logo {
   width: 139px;
   height: 71px;
-  /* Временно для сетки */ 
+  /* Временно для сетки 
   display: block; 
   background-color: green;
 }
@@ -478,10 +505,12 @@ body {
 
   list-style: none;
 
-  /* Временно для сетки */ 
+  /* Временно для сетки 
   max-height: 33px;
 
-}
+} 
+
+*/
 
 
 
