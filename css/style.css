@@ -531,17 +531,28 @@ background-color: #ffffff;
   background-color: #ffffff;
 }
 
+/* Найдено: сортировка по цене - по типу - по рейтингу */
+
 .searching-results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
   color: #000000;
 }
 
 .searching-results h2 {
+  margin-left: 73px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
  }
   
 .searching-results span {
+  margin-left: 50px;
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -549,10 +560,15 @@ background-color: #ffffff;
 }
 
 .searching-results-sorting {
+  margin: 0;
+  padding: 0;
   list-style: none;
+  display: flex;
+  flex-direction: row;
 }
 
 .sorting-category a {
+  margin-left: 50px;
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -561,6 +577,10 @@ background-color: #ffffff;
 
 .sorting-category a:hover {
   color:  #f81b3d2;
+}
+
+.sorting-category a:active  {
+  color:  #81b3d2;
 }
 
 .searching-results-sorting a:active {
@@ -575,7 +595,25 @@ background-color: #ffffff;
 /* Информация о найденных гостиницах */
 
 .hotel-offers ul {
+  margin: 0;
+  margin-left: 73px;
+  padding: 0;}
+
+.hotel-offers ul {
   list-style: none; 
+}
+
+.hotel-list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.hotel-info {
+   margin-left: 30px;
+   width: 777px;
+   height: 152px;
 }
 
 .hotel-name a {
@@ -645,6 +683,16 @@ background-color: #ffffff;
   color: rgba(255, 255, 255, 0.3);
   background-color: #5496bd;
 }
+
+.hotel-rating {
+  position: relative;
+}
+
+.hotel-rating span {
+  position: absolute;
+  
+}
+
 
 /* Подвал */
 
