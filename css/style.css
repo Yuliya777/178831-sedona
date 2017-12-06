@@ -451,6 +451,7 @@ background-color: #ffffff;
 }
 
 .filters {
+  
   color: #ffffff;
 
   background-color: #81b3d2;
@@ -459,11 +460,55 @@ background-color: #ffffff;
   background-size: 1200px 562px;
 }
 
+
 .filters ul {
   list-style: none;
 }
 
+.filter {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 217px;
+  padding-top: 40px;
+}
+
+.infrastructure {
+  width: 50%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.infra-1 {
+  padding-left: 68px;
+  width: 313px;
+}
+
+.infra-1 li{
+  padding-bottom: 25px;
+}
+
+.infra-2 {
+  padding-left: 25px;
+  width: 288px;
+}
+
+.infra-2 li{
+  padding-bottom: 25px;
+}
+
+.price-per-day {
+  padding-left: 180px;
+  width: 50%;
+}
+
 .filter-button {
+
   font: inherit;
   font-size: 14px;
   line-height: 21px;

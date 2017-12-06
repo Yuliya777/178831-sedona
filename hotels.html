@@ -27,7 +27,8 @@
       <section class="filters">
         <h2 class="visually-hidden">Фильтр объектов размещения</h2>
         <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-          <fieldset>
+          <div class="infrastructure">
+          <fieldset class="infra-1">
             <legend>Инфраструктура:</legend>
             <ul>
               <li class="filter-option">
@@ -50,7 +51,7 @@
               </li>
             </ul> 
           </fieldset>
-          <fieldset>
+          <fieldset class="infra-2">
             <legend>Тип жилья:</legend>
             <ul>
               <li class="filter-option">
@@ -68,10 +69,12 @@
               <li class="filter-option">
                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="appartment-type" id="filter-appartment-type" checked>
                 <label for="filter-appartment-type">
-                  Wi-fi
+                  Апартаменты
               </li>
             </ul>
           </fieldset>
+          </div>
+          <div class ="price-per-day">
           <fieldset>
             <legend>Стоимость в сутки (Р):</legend>
             <div class="filtres-price-range">
@@ -82,6 +85,7 @@
             </div>
           </fieldset>
               <button type="submit" class="filter-button">Показать</button>
+          </div>    
         </form>
       </section>
          
