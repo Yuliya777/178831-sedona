@@ -422,6 +422,10 @@ background-color: #ffffff;
 }
 
 .modal-close {
+  margin-bottom: 58px;
+  width: 456px; 
+  height: 54px; 
+
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -600,12 +604,22 @@ background-color: #ffffff;
 /* Подвал */
 
 .main-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+
   background-color: #fefefe;
   line-height: 26px;
   text-transform: uppercase;
 }
 
 .visit-sedona-link {
+  align-self: center;
+
   font: inherit;
   font-size: 21px;
   font-weight: 700;
@@ -615,72 +629,22 @@ background-color: #ffffff;
 .footer-social ul {
   list-style: none;
 }
+.footer-social ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social {
+  align-self: center;
+  margin-left: 3px;
+}
 
 .footer-copyright {
+  align-self: center;
+
   font: inherit;
   font-size: 14px;
   font-weight: 400;
 }
-
-/* Сеточные стили 
-
-
-html,
-body {
-  min-width: 1280px;
-  min-height: 2762px;
-}
-
-body {
-  /* Временно для сетки */
- /* background-size: 1200px auto;
-  background-repeat: no-repeat;
-}
-
-.main-header {
-  margin-bottom: 60px;
-  margin-left: 40px;
-  margin-right: 40px;
-
-/* Временно для сетки */
-/*  min-height:  71px;
-}
-
-.main-navigation {
-  width: 1056px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-/* Временно для сетки 
-   min-height:  71px; 
-   background-color: transparent;
-   background-color: yellow;
-}
-
-.main-header-logo {
-  width: 139px;
-  height: 71px;
-  /* Временно для сетки 
-  display: block; 
-  background-color: green;
-}
-
-.site-navigation {
-  width: 
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
-
-  /* Временно для сетки 
-  max-height: 33px;
-
-} 
-
-*/
-
-
-
-
 
