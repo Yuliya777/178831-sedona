@@ -425,13 +425,15 @@ a {
 }
 
 .map {
-  min-height: 475px;
+  max-height: 475px;
   overflow: hidden;
 }
 
 /* Для внутренней страницы - фильтры */
 
 .filter fieldset {
+  margin: 0;
+  padding: 0;
   border: none;
 }
 
@@ -443,7 +445,8 @@ a {
 }
 
 .filters {
-  
+  padding: 0 6%;
+
   color: #ffffff;
 
   background-color: #81b3d2;
@@ -463,7 +466,8 @@ a {
   margin: 0;
   display: flex;
   flex-direction: row;
-  height: 217px;
+  justify-content: space-between;
+  min-height: 217px;
   padding-top: 40px;
 }
 
@@ -477,8 +481,7 @@ a {
 }
 
 .infra-1 {
-  padding-left: 68px;
-  width: 313px;
+  width: 50%;
 }
 
 .infra-1 li{
@@ -486,8 +489,7 @@ a {
 }
 
 .infra-2 {
-  padding-left: 25px;
-  width: 288px;
+  width: 50%;
 }
 
 .infra-2 li{
@@ -497,11 +499,7 @@ a {
 /* Стоимость в сутки */
 
 .price-per-day {
-  padding: 0;
-  margin: 0;
-  width: 50%;
-  padding-left: 214px;
-  padding-right: 40px;
+  max-width: 327;
 }
 
 .filtres-price-range {
@@ -556,7 +554,6 @@ a {
   line-height: 21px;
   font-weight: 400;
   text-align: center;
-  font: inherit; 
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
@@ -567,7 +564,6 @@ a {
   background-color: transparent; 
   border: 1px solid #ffffff;
   border-radius: 0;
-  background-size: 131px 34px;
 }
 
 .filter-button:hover {
@@ -608,6 +604,10 @@ a {
   list-style: none;
   display: flex;
   flex-direction: row;
+}
+
+.searching-results-sorting li {
+background-color: grey;
 }
 
 .sorting-category a {
