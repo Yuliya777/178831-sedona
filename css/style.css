@@ -94,6 +94,7 @@ a {
 .site-navigation li {
   width: 20%;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .site-navigation li:nth-child(n+3) {
@@ -129,8 +130,6 @@ a {
   margin: 0;
   padding-top: 50px;
   margin: 0;
-  display: flex;
-  flex-direction: column;
   text-align: center;
   background-color: #ffffff; 
 }
@@ -145,7 +144,6 @@ a {
 
 .feature-town {
   margin: 0;
-  margin-top: 52px;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -154,36 +152,25 @@ a {
   background-color: #81b3d2;
 }
 
-.town-text {
-  width: 400px;
-  height: 258px;
-}
-
 .town-image {
-  width: 800px;
-  height: 258px;
   overflow: hidden;
 }
 
-.town-text h3 {
+.town-text {
   margin-top: 44px;
-  margin-bottom: 22px;
-  padding-left: 138px;
-  padding-right: 138px;
+  width: 400px;
+}
 
-  font-size: 21px;
+.town-text h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
   line-height: 21px;
   font-weight: 700;
 }
 
 .town-text span {
-  margin: 0;
-}
-
-.town-text p {
-  margin-top: 20px;
-  padding-left: 59px;
-  padding-right: 59px;
+  margin-bottom: 30px;
 }
 
 /* Жилье, еда, сувениры */
@@ -204,7 +191,6 @@ a {
   box-sizing: border-box;
   width: 33.33%;
   padding: 140px 72px 60px;
-  height: 333px;
   background-position: center 60px;
 }
 
@@ -242,8 +228,6 @@ a {
 .tourists-advice-item p {
   /*margin-bottom: 83px;
   width: 285px;*/
-  padding-left: 80px;
-  padding-right: 80px;
   background-color: yellow;
 }
 
@@ -252,38 +236,32 @@ a {
 .feature-attraction {
   display: flex;
   flex-direction: row-reverse;
-  height: 258px;
+  height: 256px;
   color: #ffffff;
   background-color: #81b3d2; 
 }
 
 .attraction-text {
-  height: 258px;
+  margin-top: 44px;
+  padding-left: 44px;
+  padding-right: 44px;
   width: 400px;
+  box-sizing: border-box;
 }
 
-.attraction-text p {
- padding: 0;
- padding-left: 47px; 
- padding-right: 47px;
-}
+.attraction-text span {
+  margin-bottom: 30px;}
 
 .attraction-image {
-  align-self: flex-end;
-  width: 800px;
-  height: 256px;
   overflow: hidden;
 }
 
 .feature-attraction h3 {
-  margin-top: 44px;
-  margin-bottom: 22px;
-  font-size: 21px;
-  font-weight: 700;
-}
-
-.feature-attraction span {
   margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  line-height: 21px;
+  font-weight: 700;
 }
 
 .feature-attraction p {
@@ -313,26 +291,18 @@ a {
   box-sizing: border-box;
   width: 33.33%;
   padding: 0;
-  background-position: center 60px;
-  background-color: #eeeeee;
+  padding-left: 66px;
+  padding-right: 66px;
 }
 
 .feature-environoment-item h3 {
- padding-left: 140px;
- padding-right: 140px;
- margin-top: 48px;
- margin-bottom: 30px;
-}
-
-.feature-environoment-item span {
-  margin: 0;
+  margin-top: 48px;
+  margin-bottom: 30px;
 }
 
 .feature-environoment-item p {
   margin-top: 30px;
   margin-bottom: 64px;
-  padding-left: 66px;
-  padding-right: 66px;
 }
 
 /* "Заинтересовались?" - место вызова формы бронирования гостиницы */
@@ -343,7 +313,7 @@ a {
   text-align: center;
 }
 
-.container-hotel-booking {
+/*.container-hotel-booking {
   position: absolute;
   min-height: 290px;
   top: 0;
@@ -351,11 +321,17 @@ a {
   left: 0;
   margin: 0 auto;
   background-color: #ffffff;
-}
+}*/
 
 .booking-1 {
   margin-left: 380px;
   margin-right: 380px;
+
+  margin-top: 30px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
 }
 
 .hotel-booking h2 {
@@ -365,14 +341,6 @@ a {
   line-height: 36px;
   font-weight: 700;
   color: #000000;
-}
-
-.hotel-booking p {
-  margin-top: 30px;
-  padding: 0;
-  font-size: 14px;
-  line-height: 24px;
-  color: #333333;
 }
 
 .hotel-searching {
@@ -400,46 +368,33 @@ a {
 }
 
 .hotel-searching:active {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.3);
   background-color: #503e33; 
 }
 
 /* Форма бронирования отеля */
 
-.hotel-booking-form {
-  min-width: 576px;
-  min-height: 395px;
- }
-
 .modal { 
-position: absolute; 
-width: 576px; 
-height: 395px; 
-bottom: -395px; 
-right: 0; 
-left: 0; 
-margin: 0 auto; 
-padding: 0;
+  position: absolute; 
+  width: 576px; 
+  height: 395px; 
+  bottom: -395px; 
+  right: 0; 
+  left: 0; 
+  margin: 0 auto; 
+  padding: 0;
+  /*box-sizing: border-box;*/
 
-font-size: 14px; 
-line-height: 26px; 
-font-weight: 700; 
-color: #000000; 
-background-color: #ffffff;
+  font-size: 14px; 
+  line-height: 26px; 
+  font-weight: 700; 
+  color: #000000; 
+  background-color: #ffffff;
+
 }
 
 .hotel-booking-item {
-  margin-left: 57px;
   margin-top: 57px;
-  text-align: justify;
-
-
-  font: inherit;
-  line-height: 26px;
-  font-weight: 700;
-  color: #ffffff;
-  text-transform: uppercase;
-  border: none;
 }
 
 .modal-close {
@@ -457,6 +412,16 @@ background-color: #ffffff;
   background-color: #81b3d2;
   border: none;
   background-size: 458px 59px;
+}
+
+.modal-close:hover {
+  color: #ffffff;
+  background-color: #669ec0;
+}
+
+.modal-close:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
 }
 
 .map {
