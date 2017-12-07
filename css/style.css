@@ -69,7 +69,7 @@ a {
 .main-navigation {
   position: relative;
   padding: 0 6%;
-  height: 58px;
+  margin: 0;
   background-color: #ffffff; 
 }
 
@@ -84,6 +84,7 @@ a {
 
 .site-navigation {
   padding: 0;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -92,7 +93,7 @@ a {
 
 .site-navigation li {
   width: 20%;
-  padding: 0;
+  padding-top: 15px;
 }
 
 .site-navigation li:nth-child(n+3) {
@@ -116,44 +117,54 @@ a {
 /* Визитная карточка Седоны */
 
 .sedona-business-card {
-  padding-top: 59px;
+  padding-bottom: 2px;
   text-align: center;
-  background-image: url("../img/main_background_photo.jpg");
+  background-image: url("../img/intro.jpg");
   background-repeat: no-repeat; 
-  background-size: 1200px 773px;
+  background-size: 1200px 512px;
+  background-color: #ffffff;
 }
 
 .features {
+  margin: 0;
+  padding-top: 50px;
+  margin: 0;
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #ffffff; 
+  background-color: black; /*#ffffff; */
 }
 
 .features h2 {
+  padding-left: 381px;
+  padding-right: 381px;
+  margin-bottom: 32px;
   color: #000000;
+  background-color: green;
 }
 
+.features p {
+   background-color: grey;
+}
 /* Настоящий городок */
 
 .feature-town {
+  margin: 0;
+  margin-top: 52px;
+  padding: 0;
   display: flex;
   flex-direction: row;
-  width: 1200px;
   height: 258px;
   color: #ffffff;
   background-color: #81b3d2;
 }
 
 .town-text {
-text-align: : center; 
-align-self: flex-start;
-width: 400px;
-height: 258px;
+  width: 400px;
+  height: 258px;
 }
 
 .town-image {
-  align-self: flex-end;
   width: 800px;
   height: 258px;
   overflow: hidden;
@@ -162,6 +173,9 @@ height: 258px;
 .town-text h3 {
   margin-top: 44px;
   margin-bottom: 22px;
+  padding-left: 138px;
+  padding-right: 138px;
+
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -173,6 +187,8 @@ height: 258px;
 
 .town-text p {
   margin-top: 20px;
+  padding-left: 59px;
+  padding-right: 59px;
 }
 
 /* Жилье, еда, сувениры */
@@ -238,22 +254,26 @@ height: 258px;
 .feature-attraction {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
   height: 258px;
   color: #ffffff;
   background-color: #81b3d2; 
 }
 
 .attraction-text {
-  align-self: flex-start;
-  width: 400px;
   height: 258px;
+  width: 400px;
+}
+
+.attraction-text p {
+  padding: 0;
+ padding-left: 47px; 
+ padding-right: 47px;
 }
 
 .attraction-image {
   align-self: flex-end;
   width: 800px;
-  height: 258px;
+  height: 256px;
   overflow: hidden;
 }
 
@@ -288,20 +308,20 @@ height: 258px;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+ 
 }
 
 .feature-environoment-item {
   box-sizing: border-box;
   width: 33.33%;
-  height: 256px;
   padding: 0;
   background-position: center 60px;
   background-color: #eeeeee;
 }
 
 .feature-environoment-item h3 {
- padding: 0;
+ padding-left: 140px;
+ padding-right: 140px;
  margin-top: 48px;
  margin-bottom: 30px;
 }
@@ -312,8 +332,9 @@ height: 258px;
 
 .feature-environoment-item p {
   margin-top: 30px;
-  /*height: 35px;*/
   margin-bottom: 64px;
+  padding-left: 66px;
+  padding-right: 66px;
 }
 
 /* "Заинтересовались?" - место вызова формы бронирования гостиницы */
@@ -332,6 +353,12 @@ height: 258px;
   left: 0;
   margin: 0 auto;
   background-color: #ffffff;
+}
+
+.booking-1 {
+  margin-left: 380px;
+  margin-right: 380px;
+  background-color: yellow;
 }
 
 .hotel-booking h2 {
@@ -395,29 +422,27 @@ bottom: -395px;
 right: 0; 
 left: 0; 
 margin: 0 auto; 
+padding-top: 57px;
+padding: 0;
 
 font-size: 14px; 
 line-height: 26px; 
 font-weight: 700; 
 color: #000000; 
-
-background-color: #ffffff; 
+background-color: #ffffff;
 }
 
-.map {
-  min-height: 475px;
-  overflow: hidden;
-}
-
-.hotel-booking-item, 
 .hotel-booking-item {
+  margin-left: 57px;
+  margin-top: 57px;
+  text-align: justify;
+
+
   font: inherit;
   line-height: 26px;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
   text-transform: uppercase;
-
-  background-color: #f2f2f2;
   border: none;
 }
 
@@ -437,6 +462,12 @@ background-color: #ffffff;
   border: none;
   background-size: 458px 59px;
 }
+
+.map {
+  min-height: 475px;
+  overflow: hidden;
+}
+
 /* Для внутренней страницы - фильтры */
 
 .filter fieldset {
@@ -690,7 +721,7 @@ background-color: #ffffff;
 
 .hotel-rating span {
   position: absolute;
-  
+
 }
 
 
