@@ -240,8 +240,11 @@ a {
 }
 
 .tourists-advice-item p {
-  margin-bottom: 83px;
-  width: 285px;
+  /*margin-bottom: 83px;
+  width: 285px;*/
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: yellow;
 }
 
 /* Мост */
@@ -260,7 +263,7 @@ a {
 }
 
 .attraction-text p {
-  padding: 0;
+ padding: 0;
  padding-left: 47px; 
  padding-right: 47px;
 }
