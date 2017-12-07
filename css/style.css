@@ -529,6 +529,8 @@ background-color: #ffffff;
   padding-bottom: 25px;
 }
 
+/* Стоимость в сутки */
+
 .price-per-day {
   padding: 0;
   margin: 0;
@@ -536,6 +538,13 @@ background-color: #ffffff;
   padding-left: 214px;
   padding-right: 40px;
 }
+
+.filtres-price-range {
+  border: 1px solid white; 
+  display: flex;
+  background-color: yellow;
+}
+
 
 .fieldset span {
   margin-right: 80px;
@@ -546,8 +555,31 @@ background-color: #ffffff;
   color: #ffffff;
 }
 
-input {
-  background-color: transparent;
+.filtres-price-range input { 
+  order: 0 none; 
+  color: #ffffff; 
+  width: 50%; 
+  background-color: transparent; 
+} 
+
+.filtres-price-range input::-moz-placeholder { 
+  color: #ffffff; 
+} 
+
+.filtres-price-range input::-webkit-input-placeholder { 
+  color: #ffffff; 
+} 
+
+.filtres-price-range input::-ms-input-placeholder { 
+  color: #ffffff; 
+} 
+
+.filtres-price-range input::-ms-input-placeholder { 
+  color: #ffffff; 
+} 
+
+.filtres-price-range input::placeholder { 
+  color: #ffffff; 
 }
 
 .filter-button {
@@ -663,10 +695,26 @@ input {
 }
 
 .hotel-info {
-   padding: 0;
-   margin: 0;
-   margin-left: 30px;
-   width: 777px;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: yellow;
+}
+
+.hotel-rating {
+  /*position: relative;*/
+  min-width: 110px;
+  background-color: red
+}
+
+.hotel-name {
+  margin-top: 0;
+  width: 100%;
+  background-color: green;
 }
 
 .hotel-name a {
@@ -687,6 +735,10 @@ input {
 .hotel-name a:active {
   color: rgba(0, 0, 0, 0.3);
 }
+ 
+.hotel-deteils { 
+  max-width: 110px; 
+} 
 
 .more-deteils {
   font: inherit;
@@ -737,10 +789,6 @@ input {
 .hotel-booking-button a:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #5496bd;
-}
-
-.hotel-rating {
-  position: relative;
 }
 
 .hotel-rating span {
