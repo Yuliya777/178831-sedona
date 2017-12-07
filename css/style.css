@@ -527,11 +527,29 @@ background-color: #ffffff;
 }
 
 .price-per-day {
-  padding-left: 180px;
+  padding: 0;
+  margin: 0;
   width: 50%;
+  padding-left: 214px;
+  padding-right: 40px;
+}
+
+.fieldset span {
+  margin-right: 80px;
+
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+input {
+  background-color: transparent;
 }
 
 .filter-button {
+  margin-left: 84px;
+  margin-top: 50px;
 
   font: inherit;
   font-size: 14px;
@@ -542,6 +560,9 @@ background-color: #ffffff;
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
+
+  width: 135px;
+  height: 32px;
 
   background-color: transparent; 
   border: 1px solid #ffffff;
@@ -559,7 +580,8 @@ background-color: #ffffff;
 
 .searching-results {
   list-style: none;
-  padding: 0;
+  position: relative;
+  padding: 0 6%;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -569,7 +591,6 @@ background-color: #ffffff;
 }
 
 .searching-results h2 {
-  margin-left: 73px;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -584,15 +605,12 @@ background-color: #ffffff;
 }
 
 .searching-results-sorting {
-  margin: 0;
-  padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
 }
 
 .sorting-category a {
-  margin-left: 50px;
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -600,10 +618,10 @@ background-color: #ffffff;
 }
 
 .sorting-category a:hover {
-  color:  #f81b3d2;
+  color:  #81b3d2;
 }
 
-.sorting-category a:active  {
+.sorting-category active  {
   color:  #81b3d2;
 }
 
@@ -621,26 +639,36 @@ background-color: #ffffff;
 .hotel-offers ul {
   margin: 0;
   margin-left: 73px;
-  padding: 0;}
-
-.hotel-offers ul {
+  padding: 0;
   list-style: none; 
 }
 
+.hotel-list {
+  padding: 0 6%;
+}
+
+.hotel-list li {
+  margin-top: 30px;
+}
+
 .hotel-list-item {
+  margin: 0;
+  padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
-  margin: 0;
-  padding: 0;
 }
+
 .hotel-info {
+   padding: 0;
+   margin: 0;
    margin-left: 30px;
    width: 777px;
-   height: 152px;
 }
 
 .hotel-name a {
+  padding: 0;
+  margin: 0;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
