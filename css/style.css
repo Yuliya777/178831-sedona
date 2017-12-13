@@ -685,19 +685,21 @@ a {
 }
 
 .star-item  {
-
   margin-top: 15px;
+  margin-bottom: 45px;
 }
 
 .star-item span {
   background-image: url("../img/star.svg");
   width: 22px;
   height: 21px;
-  background-repeat: background-repeat;
+  background-repeat: no-repeat;
   display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   background-position: right;
+}
+.hotel-rating span {
+  text-align: right;
 }
 
 .hotel-name {
