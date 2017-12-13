@@ -679,14 +679,15 @@ a {
 }
 
 .hotel-rating {
-  /*position: relative;*/
   min-width: 110px;
-  background-color: red
+  background-color: red;
+  text-align: right;
 }
 
 .star-item  {
   margin-top: 15px;
-  margin-bottom: 45px;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 .star-item span {
@@ -696,10 +697,11 @@ a {
   background-repeat: no-repeat;
   display: inline-block;
   margin: 0;
-  background-position: right;
 }
+
 .hotel-rating span {
-  text-align: right;
+   display: inline-block;
+   margin-bottom: 32px;
 }
 
 .hotel-name {
