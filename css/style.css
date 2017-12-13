@@ -388,8 +388,6 @@ a {
   padding-right: 57px;
   box-sizing: border-box;
 
-  /*box-sizing: border-box;*/
-
   font-size: 14px; 
   line-height: 26px; 
   font-weight: 700; 
@@ -512,7 +510,6 @@ a {
   display: flex;
   background-color: yellow;
 }
-
 
 .fieldset span {
   margin-right: 80px;
@@ -649,7 +646,7 @@ a {
 .hotel-offers {
   padding: 0 6%;
   margin: 0;
-  background-color: blue;
+  /*background-color: blue;*/
 }
 
 .hotel-offers ul {
@@ -669,7 +666,7 @@ a {
   list-style: none;
   display: flex;
   flex-direction: row;
-  background-color: brown;
+  /*background-color: brown;*/
 }
 
 .hotel-info {
@@ -685,7 +682,7 @@ a {
 
 .hotel-rating {
   min-width: 110px;
-  background-color: red;
+  /*background-color: red;*/
   text-align: right;
 }
 
@@ -707,6 +704,7 @@ a {
 .hotel-rating span {
    display: inline-block;
    margin-bottom: 32px;
+   background-color: #f2f2f2;
 }
 
 .hotel-name {
