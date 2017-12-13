@@ -684,8 +684,10 @@ a {
   background-color: red
 }
 
-.stars  img {
-    background-image: url("../img/star.swg");
+.star-item span {
+    background-image: url("../img/star.svg");
+    width: 22px;
+    height: 21px;
 }
 
 .hotel-name {
